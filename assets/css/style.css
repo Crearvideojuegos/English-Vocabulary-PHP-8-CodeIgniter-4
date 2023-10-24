@@ -1,0 +1,368 @@
+/*
+ * Utilities & Variables
+ * Colours
+ * General
+ * Links
+ * Margin 
+ * Padding
+ * Navbar
+ * Footer
+ * Cookies Popup
+ * Tables
+ * Pages
+ * Home
+ * Game
+ *
+ *
+ */
+
+
+/*
+ | --------------------------------------------------------------------------
+ | Utilities & Variables
+ | --------------------------------------------------------------------------
+*/
+
+:root {
+
+    /** Colours **/
+    --principalColour : #7d1441;
+    --principalColourMono : #4a0c27;
+
+    --shadowColour : rgba(0,0,0,0.4);
+
+    --darkColoured : #212020;
+
+    --lightColoured : #edf3f4;
+    --lightColouredTwo : #d4bdbd;
+}
+
+.error-input-border {
+    border: 1px red solid;
+}
+
+.link-secondary-pages {
+    color:darkblue;
+}
+
+/*
+ | --------------------------------------------------------------------------
+ | Colours
+ | --------------------------------------------------------------------------
+*/
+
+.principalColour {
+    color: var(--principalColour);
+}
+
+.lightColoured {
+    color: var(--lightColoured);
+}
+
+
+/*
+ | --------------------------------------------------------------------------
+ | General
+ | --------------------------------------------------------------------------
+*/
+
+a {
+    text-decoration: none;
+    color: var(--lightColoured);
+}
+
+a:hover {
+    color: var(--lightColouredTwo);
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--lightColoured);
+}
+
+/*
+ | --------------------------------------------------------------------------
+ | Links
+ | --------------------------------------------------------------------------
+*/
+
+.link {
+    color: var(--principalColour);
+}
+
+.link:hover {
+    color: var(--principalColourMono);
+}
+
+/*
+ | --------------------------------------------------------------------------
+ | Margin
+ | --------------------------------------------------------------------------
+*/
+
+.mt-10 {
+    margin-top: 10rem!important;
+}
+
+.mt-10d5 {
+    margin-top: 10.5rem!important;
+}
+
+.mt-11 {
+    margin-top: 11rem!important;
+}
+
+.mt-12 {
+    margin-top: 12rem!important;
+}
+
+.mt-14 {
+    margin-top: 14rem!important;
+}
+
+.mb-6 {
+    margin-bottom: 6rem !important;
+}
+
+.mb-7 {
+    margin-bottom: 7rem !important;
+}
+
+.mb-8 {
+    margin-bottom: 8rem!important;
+}
+
+
+/*
+ | --------------------------------------------------------------------------
+ | Padding
+ | --------------------------------------------------------------------------
+*/
+
+.p-80 {
+    padding: 80px!important;
+}
+
+.fs-2r {
+    font-size: 2rem;
+}
+
+
+
+/*
+ | --------------------------------------------------------------------------
+ | Navbar
+ | --------------------------------------------------------------------------
+*/
+
+header {
+    margin-bottom: 120px;
+}
+
+#neubar {
+	background: var(--principalColour);
+	color: var(--lightColoured);
+	box-shadow: 4px 6px 12px var(--shadowColour);
+}
+
+.nav-link {
+	border-radius: 6px;
+	font-weight: 700;
+}
+
+.nav-item .active {
+	color: var(--principalColour) !important;
+	background-color: var(--lightColoured);
+	box-shadow:  1px 3px 6px var(--shadowColour);
+}
+
+#neubar a:hover {
+	border-radius: 6px;
+	color: var(--principalColour);
+	background-color: var(--lightColoured);
+}
+
+#neubar .dropdown-menu a:hover {
+	color: var(--principalColour);
+}
+
+.active_sub {
+	border-radius: 6px;
+	color: var(--principalColour)!important;
+	background-color: var(--lightColoured);
+}
+
+#neubar .nav-item {
+	margin : auto 4px;
+}
+
+#neubar a {
+	color: var(--lightColoured);
+	padding-left:12px;
+	padding-right:12px;
+}
+
+#neubar .dropdown-menu {
+	background : var(--principalColour);
+}
+
+a.navbar-brand {
+	color: var(--principalColour);
+} 
+
+
+/*
+ | --------------------------------------------------------------------------
+ | Footer
+ | --------------------------------------------------------------------------
+*/
+
+footer {
+    background-color: var(--principalColourMono);
+}
+
+.icons-footer-fullscren {
+    color: var(--lightColoured);
+    font-size: 2rem;
+}
+
+.footer-link {
+    color: var(--lightColoured);
+    font-size: 1.5rem;
+}
+
+.footer-link:hover {
+    color: var(--lightColouredTwo);
+    transition: .3s;
+}
+
+.icons-footer-fullscren:hover {
+    color: var(--lightColouredTwo);
+}
+
+
+/*
+ | --------------------------------------------------------------------------
+ | Cookies Popup
+ | --------------------------------------------------------------------------
+*/
+
+#cookiePopup {
+	background: var(--lightColoured);
+	width: 25%;
+	position: fixed;
+	left: 10px;
+	bottom: 20px;
+	box-shadow: 0px 0px 15px var(--shadowColour);
+	padding: 20px;
+}
+
+@media (max-width: 768px) {
+    #cookiePopup {
+        width: 75%;
+    }
+}
+
+#cookiePopup p{
+	text-align: left;
+	font-size: 15px;
+	color: var(--darkColoured);
+}
+
+#cookiePopup p a{
+	text-align: left;
+	font-size: 15px;
+	color: var(--principalColour);
+}
+
+#cookiePopup p a:hover {
+	color: var(--principalColourMono);
+}
+
+#cookiePopup button{
+	width: 100%;
+	border: var(--lightColoured);
+	background: var(--principalColour);
+	padding: 5px;
+	border-radius: 10px;
+	color: var(--lightColoured);
+}
+
+#cookiePopup button:hover {
+	background: var(--principalColourMono);
+}
+
+/*
+ | --------------------------------------------------------------------------
+ | Tables
+ | --------------------------------------------------------------------------
+*/
+
+.tr-head {
+	color: var(--lightColoured);
+	background-color: var(--principalColour);
+}
+
+/*
+ | --------------------------------------------------------------------------
+ | Pages
+ | --------------------------------------------------------------------------
+*/
+
+/*
+ | --------------------------------------------------------------------------
+ | Home
+ | --------------------------------------------------------------------------
+*/
+
+#home-header {
+    margin-top: -35px;
+}
+
+#container-home {
+    margin-top: -50px;
+}
+
+.back-transparent {
+    background-color: #ffffffc9;
+    border-radius: 10px;
+    padding: 30px
+}
+
+.home-carousel-images {
+    max-width: 700px;
+}
+
+@media (max-width: 768px) {
+	.home-carousel-images {
+		max-width: 350px;
+	}
+}
+
+/*
+ | --------------------------------------------------------------------------
+ | Game
+ | --------------------------------------------------------------------------
+*/
+
+.blur-words-game {
+    filter: blur(20px);
+}
+
+.game-texts {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#reset-mistakes {
+    color: var(--lightColoured);
+    background-color: var(--principalColour);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#reset-mistakes:hover {
+	background-color: var(--principalColourMono);
+}
