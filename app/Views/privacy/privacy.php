@@ -11,10 +11,6 @@
             This website was created to learn English Vocabulary.
         </p>
 
-        <p class="col-lg-12 fs-4">
-            Write your Privacy Policy
-        </p>
-
         <div style="margin-top: 160px;">
 	
         </div>

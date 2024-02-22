@@ -9,13 +9,13 @@
         <ul class="nav justify-content-center pb-3 mb-3">
 
             <li class="nav-item">
-                <a class="nav-link text-dark h5" href="https://twitter.com/iwritegames" target="blank">
+                <a class="nav-link text-dark h5" href="https://x.com/crearvideojuego" target="blank">
                     <i class="bi-twitter icons-footer-fullscren"></i>
                 </a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link text-dark h5" href="https://www.instagram.com/iwritegames" target="blank">
+                <a class="nav-link text-dark h5" href="https://www.instagram.com/crearvideojuego" target="blank">
                     <i class="bi-instagram icons-footer-fullscren"></i>
                 </a>
             </li>
@@ -27,7 +27,7 @@
             </li>
         </ul>
 
-        <p class="text-center lightColoured">© <?php echo date('Y') ?> Improve English Vocabulary - Created by <a href="https://twitter.com/iwritegames" target="_blank">I Write Games</a></p>
+        <p class="text-center lightColoured">© <?php echo date('Y') ?> Improve English Vocabulary - Created by <a href="https://x.com/crearvideojuego" target="_blank">CrearVideojuegos</a></p>
     </div>
 </footer>
 
